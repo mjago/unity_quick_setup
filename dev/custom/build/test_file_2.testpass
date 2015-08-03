@@ -1,0 +1,9 @@
+test/test_file_2.c:9:test_FALSE_is_defined:PASS
+test/test_file_2.c:14:test_not_true:PASS
+test/test_file_2.c:19:test_not_0_is_not_false:PASS
+test/test_file_2.c:24:test_not_1_is_false:PASS
+test/test_file_2.c:29:test_not_minus_255_is_false:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
