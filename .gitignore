@@ -32,3 +32,4 @@
 *.dSYM/
 /Gemfile.lock
 /dev/Unity/
+/dev/custom/build/
