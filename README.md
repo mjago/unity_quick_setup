@@ -7,24 +7,24 @@ More information of the Unity test-system can be found at:
 
 Unity Quick Setup Directory Structure:
 
- - test_project
-   - Gemfile
-   - fsevent.rb
-   - src
-     - source files
-   - test
-     - test files
-     - test_filelest.rb
-   - dev
-     - Unity
-       unity files and directories
-     - custom
-       - rakefile.rb
-       - rakefile_helper.rb
+- test_project
+  - Gemfile
+    - fsevent.rb
+    - src
+      - source files
+    - test
+      - test files
+      - test_filelest.rb
+    - dev
+      - custom
+        - rakefile.rb
+        - rakefile_helper.rb
+      - Unity
+        - unity files and directories
 
 ## Ruby Requirement
 - It is assumed the Ruby language has already been installed (https://www.ruby-lang.org/en/downloads/).
-- run gem install bundler
+- gem install bundler
 
 ## Installation
 - git clone --recursive https://github.com/mjago/unity_quick_setup.git /test_project/
