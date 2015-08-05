@@ -1,16 +1,39 @@
 # Unity Quick Setup
 
+Quick project setup for a C project using the Unity unit-test system, and auto-testing via rb-fsevent.
+More information of the Unity test-system can be found at:
+
+  http://www.throwtheswitch.org
+
+Unity Quick Setup Directory Structure:
+
+ - test_project
+   Gemfile
+   fsevent.rb
+   - src
+     - source files
+   - test
+     - test files
+     - test_filelest.rb
+   - dev
+    - Unity
+      unity files and directories
+    - custom
+      rakefile.rb
+      rakefile_helper.rb
+
 ## Ruby Requirement
 - It is assumed the Ruby language has already been installed (https://www.ruby-lang.org/en/downloads/).
 - run gem install bundler
 
 ## Installation
-- run git clone --recursive https://github.com/mjago/unity_quick_setup.git /test_project/
+- git clone --recursive https://github.com/mjago/unity_quick_setup.git /test_project/
   This will clone unity_quick_setup into directory /test_project/, and clone Unity test-system
   into /dev/Unity/.
-- run cd /test_project/
-- run bundle
+- cd /test_project/
+- bundle install
 
 ## To auto-run tests:
-- run bundle exec ruby fsevent.rb in root directory (auto test for modified src/test files)
+- bundle exec ruby fsevent.rb in root directory (auto test for modified src/test files)
+  - now saving changes in source or test files will trigger the auto-test mechanism
 - modify test/test_filelist.rb to determine what gets auto-tested
