@@ -29,8 +29,8 @@ class TestList
 #   enter / comment out testfiles to test / ignore...
 #     ( format test dir/testfile_name.c )
 
-    test 'test/test_file_1.c'
-#   test 'test/test_file_2.c'
+#    test 'test/test_file_1.c'
+   test 'test/test_file_2.c'
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # ## # # # ## # # # # # #
