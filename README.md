@@ -16,11 +16,11 @@ Unity Quick Setup Directory Structure:
      - test files
      - test_filelest.rb
    - dev
-    - Unity
-      unity files and directories
-    - custom
-      - rakefile.rb
-      - rakefile_helper.rb
+     - Unity
+       unity files and directories
+     - custom
+       - rakefile.rb
+       - rakefile_helper.rb
 
 ## Ruby Requirement
 - It is assumed the Ruby language has already been installed (https://www.ruby-lang.org/en/downloads/).
