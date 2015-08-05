@@ -8,8 +8,8 @@ More information of the Unity test-system can be found at:
 Unity Quick Setup Directory Structure:
 
  - test_project
-   Gemfile
-   fsevent.rb
+   - Gemfile
+   - fsevent.rb
    - src
      - source files
    - test
@@ -19,8 +19,8 @@ Unity Quick Setup Directory Structure:
     - Unity
       unity files and directories
     - custom
-      rakefile.rb
-      rakefile_helper.rb
+      - rakefile.rb
+      - rakefile_helper.rb
 
 ## Ruby Requirement
 - It is assumed the Ruby language has already been installed (https://www.ruby-lang.org/en/downloads/).
