@@ -15,7 +15,7 @@ Unity Quick Setup Directory Structure:
     - header files
   - test
     - test files
-    - test_filelest.rb
+    - test_filelist.rb
   - dev
     - custom
       - rakefile.rb
