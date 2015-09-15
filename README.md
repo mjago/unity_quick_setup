@@ -28,13 +28,17 @@ Unity Quick Setup Directory Structure:
 - gem install bundler
 
 ## Installation
-- git clone --recursive https://github.com/mjago/unity_quick_setup.git  test_project
-  This will clone unity_quick_setup into directory ./test_project, and clone Unity test-system
+```
+git clone --recursive https://github.com/mjago/unity_quick_setup.git  test_project
+cd test_project
+gem install bundle
+bundle install
+bundle exec ruby autorun.rb
+```
+- This will clone unity_quick_setup into directory ./test_project, and clone Unity test-system
   into ./test_project/dev/Unity/.
-- cd test_project
-- bundle install
 
-## To auto-run tests:
+## auto-run tests:
 - bundle exec ruby autorun.rb in root directory (auto test for modified src/test files)
   - now saving changes in source or test files will trigger the auto-test mechanism
 - modify test/testfile_list.rb to determine what gets auto-tested
