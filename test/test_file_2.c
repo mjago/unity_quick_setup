@@ -3,8 +3,9 @@
  * \ingroup template
  */
 
-#include "../dev/unity/src/unity.h"
-#include "../src/file_2.c"
+#include "file_2.h"
+#include "defs.h"
+#include "unity.h"
 
 void test_FALSE_is_defined(void)
 {
@@ -30,4 +31,3 @@ void test_not_minus_255_is_false(void)
 {
   TEST_ASSERT_EQUAL(FALSE, not_test(-255));
 }
-

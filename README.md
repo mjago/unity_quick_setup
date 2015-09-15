@@ -12,6 +12,7 @@ Unity Quick Setup Directory Structure:
   - fsevent.rb
   - src
     - source files
+    - header files
   - test
     - test files
     - test_filelest.rb
@@ -27,7 +28,7 @@ Unity Quick Setup Directory Structure:
 - gem install bundler
 
 ## Installation
-- git clone --recursive https://github.com/mjago/unity_quick_setup.git /test_project/
+- git clone --recursive https://github.com/mjago/unity_quick_setup.git  /test_project/
   This will clone unity_quick_setup into directory /test_project/, and clone Unity test-system
   into /dev/Unity/.
 - cd /test_project/

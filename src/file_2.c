@@ -1,12 +1,12 @@
-#include "defs.h"
+#include "file_2.h"
 #include "stdio.h"
 
-int not_true_test(void)
+STATIC int not_true_test(void)
 {
   return 0;
 }
 
-int not_test(int arg)
+STATIC int not_test(int arg)
 {
   return ! arg;
 }

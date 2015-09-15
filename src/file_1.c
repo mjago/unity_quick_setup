@@ -1,5 +1,4 @@
-#include "defs.h"
-#include "stdio.h"
+#include "file_1.h"
 
 STATIC int false_test(void)
 {

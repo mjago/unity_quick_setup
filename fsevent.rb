@@ -32,27 +32,3 @@ $fsevent.watch [$root] do |directories|
 end
 
 $fsevent.run
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

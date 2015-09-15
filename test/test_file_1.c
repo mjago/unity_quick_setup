@@ -3,10 +3,8 @@
  * \ingroup template
  */
 
-#include "../dev/unity/src/unity.h"
-#include "../src/file_1.c"
-
-#include "stdio.h"
+#include "file_1.h"
+#include "unity.h"
 
 void test_false(void)
 {

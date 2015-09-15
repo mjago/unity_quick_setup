@@ -25,8 +25,8 @@ compiler:
   includes:
     prefix: '-I'
     items:
-      - 'dev/unity/src/'
-      - './src/'
+      - '/Users/martyn/unity_quick_setup/dev/unity/src/'
+      - '/Users/martyn/unity_quick_setup/src/'
       - *unit_tests_path
   defines:
     prefix: '-D'
