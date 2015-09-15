@@ -15,7 +15,7 @@ Unity Quick Setup Directory Structure:
     - header files
   - test
     - test files
-    - test_filelist.rb
+    - testfile_list.rb
   - dev
     - custom
       - rakefile.rb
@@ -28,13 +28,17 @@ Unity Quick Setup Directory Structure:
 - gem install bundler
 
 ## Installation
-- git clone --recursive https://github.com/mjago/unity_quick_setup.git  /test_project/
-  This will clone unity_quick_setup into directory /test_project/, and clone Unity test-system
-  into /dev/Unity/.
-- cd /test_project/
+- git clone --recursive https://github.com/mjago/unity_quick_setup.git  test_project
+  This will clone unity_quick_setup into directory ./test_project, and clone Unity test-system
+  into ./test_project/dev/Unity/.
+- cd test_project
 - bundle install
 
 ## To auto-run tests:
-- bundle exec ruby fsevent.rb in root directory (auto test for modified src/test files)
+- bundle exec ruby autorun.rb in root directory (auto test for modified src/test files)
   - now saving changes in source or test files will trigger the auto-test mechanism
-- modify test/test_filelist.rb to determine what gets auto-tested
+- modify test/testfile_list.rb to determine what gets auto-tested
+
+## Expand Project
+- Expand project by modifying dev/custom/target/gcc_template.yml.
+- More target configs available in dev/Unity/test/targets directory.
