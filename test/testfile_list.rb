@@ -9,7 +9,7 @@ class TestList
 #    Uncomment all  to test all test files (ignores test specific selection)
 #    Uncomment only to test only single_file below
 
-#    all
+    all
 #    only
 
   end
@@ -21,7 +21,7 @@ class TestList
 #   enter name of single_file to run on setting @test_only flag above
 #     ( format dir/testfile_name.c )
 
-    "test/test_file_1.c"
+    "test/test_fff.c"
 
   end
 
@@ -32,6 +32,7 @@ class TestList
 #   enter / comment out testfiles to test / ignore...
 #     ( format test dir/testfile_name.c )
 
+    test 'test/test_fff.c'
     test 'test/test_file_1.c'
     test 'test/test_file_2.c'
 

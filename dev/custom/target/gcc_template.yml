@@ -8,7 +8,7 @@ compiler:
     - '-Wall'
     - '-Wno-address'
     - '-std=c99'
-    - '-pedantic'
+#    - '-pedantic' fff won't build with pedantic!
     - '-Wextra'
     - '-Werror'
     - '-Wpointer-arith'
